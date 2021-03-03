@@ -1,0 +1,23 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "burgers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfears19/Eat-Da-Burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfears19/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/nfears19/Eat-Da-Burger#readme",
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
