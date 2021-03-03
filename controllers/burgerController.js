@@ -44,7 +44,6 @@ router.delete('/', (req, res) => {
   
     burger.delete(condition, (result) => {
       if (result.affectedRows === 0) {
-        // If no rows were changed, then the ID must not exist, so 404
         return res.status(404).end();
       }
       res.status(200).end();
